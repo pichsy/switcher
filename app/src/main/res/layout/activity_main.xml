@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="56dp"
+    tools:context=".MainActivity">
+
+    <com.pichs.switcher.Switcher
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="56dp"
+        app:xp_bgColor_switchOff="#EE4D4D"
+        app:xp_bgColor_switchOn="#00C853"
+        app:xp_iconColor_switch="#ffffff" />
+
+    <com.pichs.switcher.Switcher
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        app:xp_bgColor_switchOff="#AD1212"
+        app:xp_bgColor_switchOn="#57A677"
+        app:xp_iconColor_switch="#FFD600" />
+
+    <com.pichs.switcher.Switcher
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:xp_bgColor_switchOff="#AD1212"
+        app:xp_bgColor_switchOn="#57A677"
+        app:xp_iconColor_switch="#FFD600" />
+
+</LinearLayout>

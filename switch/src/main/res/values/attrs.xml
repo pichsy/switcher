@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="xp_bgColor_switchOn" format="color" />
+    <attr name="xp_bgColor_switchOff" format="color" />
+    <attr name="xp_iconColor_switch" format="color" />
+
+    <declare-styleable name="BaseSwitcher">
+        <attr name="android:elevation" />
+        <attr name="android:checked" />
+        <attr name="xp_iconColor_switch" />
+        <attr name="xp_bgColor_switchOff" />
+        <attr name="xp_bgColor_switchOn" />
+    </declare-styleable>
+</resources>
