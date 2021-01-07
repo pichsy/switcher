@@ -258,6 +258,20 @@ class Switcher @JvmOverloads constructor(
         }
     }
 
+    fun setSize(width: Int, height: Int) {
+        this.defHeight = height
+        this.defWidth = width
+    }
+
+    fun setSwitcherColor(iconColor: Int, switchOnColor: Int, switchOffColor: Int) {
+        this.onColor = switchOnColor
+        this.offColor = switchOffColor
+        this.iconColor = iconColor
+        this.currentColor = if (this.isChecked) this.onColor else this.offColor
+        this.iconPaint.color = this.iconColor
+        invalidate()
+    }
+
     override fun setChecked(checked: Boolean, withAnimation: Boolean) {
         if (this.isChecked != checked) {
             this.isChecked = checked
