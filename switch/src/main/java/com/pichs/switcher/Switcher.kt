@@ -261,6 +261,11 @@ class Switcher @JvmOverloads constructor(
     fun setSize(width: Int, height: Int) {
         this.defHeight = height
         this.defWidth = width
+        layoutParams?.let {
+            it.height = height
+            it.width = width
+            layoutParams = it
+        }
     }
 
     fun setSwitcherColor(iconColor: Int, switchOnColor: Int, switchOffColor: Int) {

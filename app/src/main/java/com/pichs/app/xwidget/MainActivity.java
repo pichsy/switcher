@@ -22,10 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void changeColor(View view) {
         mSwitcher.setSize(100, 50);
-        ViewGroup.LayoutParams layoutParams = mSwitcher.getLayoutParams();
-        layoutParams.height = 200;
-        layoutParams.width = 100;
-        mSwitcher.setLayoutParams(layoutParams);
 
         mSwitcher.setSwitcherColor(Color.RED, Color.BLUE, Color.BLACK);
 
