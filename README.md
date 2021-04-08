@@ -1,10 +1,14 @@
+# 最新地址, 该项目已移到gitee
+# [https://gitee.com/pichs/switcher](https://gitee.com/pichs/switcher)
+
+
 # switcher
 开关控件
 
 - 如果你喜欢请赏个star，谢谢！
 
 ### 引入控件
-最新版本:  [![](https://jitpack.io/v/pichsy/switcher.svg)](https://jitpack.io/#pichsy/xwidget)
+最新版本:  [![](https://jitpack.io/v/pichsy/switcher.svg)](https://jitpack.io/#pichsy/switcher)
 
     
         
